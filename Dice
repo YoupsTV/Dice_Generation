@@ -1,0 +1,17 @@
+// дайс
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+ 
+int main()
+{
+   int a, b;
+   srand(time(0));
+
+   a = rand() % 6 + 1;
+   b = rand() % 6 + 1;
+
+   printf("Вам выпало: %d и %d\n", a, b);
+   return 0;
+}
